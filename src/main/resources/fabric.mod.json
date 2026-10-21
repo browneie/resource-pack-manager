@@ -1,0 +1,19 @@
+{
+    "schemaVersion": 1,
+    "id": "${id}",
+    "version": "${version}",
+    "name": "${name}",
+    "description": "Search, folders, favorites, sorting and saved profiles for the resource pack screen.",
+    "authors": [
+        "brownie"
+    ],
+    "license": "MIT",
+    "environment": "client",
+    "mixins": [
+        "resourcepackmanager.mixins.json"
+    ],
+    "depends": {
+        "minecraft": "1.8.9",
+        "fabricloader": ">=0.17"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "package": "com.resourcepackmanager.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "client": [
+        "CustomResourcePackEntryMixin",
+        "ResourcePacksMixin",
+        "ResourcePacksScreenMixin",
+        "UnopenedPackMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

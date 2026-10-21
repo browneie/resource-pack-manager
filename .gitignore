@@ -1,0 +1,13 @@
+# Gradle / Loom
+.gradle/
+build/
+run/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+out/
+
+# macOS
+.DS_Store
